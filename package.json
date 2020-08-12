@@ -1,0 +1,23 @@
+{
+  "name": "aws-org-graph",
+  "version": "1.0.0",
+  "description": "Creates DOT graphs for AWS organizations",
+  "bin": {
+    "aws-org-graph": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "AWS"
+  ],
+  "author": "Taimos GmbH <info@taimos.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.732.0"
+  }
+}
